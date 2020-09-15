@@ -1,3 +1,4 @@
-.idea
+.idea/**
 target
-text.txt
+src/main/java/sysProg/**/*.txt
+src/main/java/sysProg/**/*.jpg

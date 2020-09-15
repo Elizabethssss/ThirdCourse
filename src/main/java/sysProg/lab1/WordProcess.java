@@ -18,7 +18,7 @@ public class WordProcess {
     }
 
     public static void readText() {
-        try (BufferedReader reader = new BufferedReader(new FileReader("text.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("book.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] words = removePunctuationAndGetArrayOfWords(line);
